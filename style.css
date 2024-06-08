@@ -1,0 +1,82 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.row{
+    text-align: center;
+}
+
+
+#options{
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+}
+
+#form{
+    margin-top: 12px;
+}
+
+#taskForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#taskInput{
+    width: 75%;
+    height: 40px;
+    padding: 10px;
+   border-radius: 1.25vh;
+   border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#add{
+    width: 20%;
+    height: 40px;
+    border-radius: 1.25vh;
+}
+
+#listTasks{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.liTasks{
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.checkTask{
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+#deleteAllBtn{
+    background-color: red;
+    display: none;
+    margin-left: auto;
+}
+
+.selector{
+    border-bottom: solid 3px #007bff; 
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.liTasks.completed{
+    text-decoration-line: line-through ;
+}
+
